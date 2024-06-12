@@ -5,7 +5,7 @@
     <title>Nosso dia dos namorados</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="./favicon.png" type="image/x-icon" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -78,7 +78,20 @@
       padding-top: 10px;
     }
   </style>
+  <script>
+    function handleRedirect() {
+      window.location.href = './agendado.html';
+    }
+  </script>
   <body>
-    <h1>ok moça</h1>
+    <main>
+      <h6>Feliz dia dos namorados</h6>
+      <img src="./ursinho-fofo-apaixonado.gif" alt="gif animado de ursinho" />
+      <h5>Aceita passar à noite comigo?</h5>
+      <div>
+        <button onclick="handleRedirect()">Sim!</button>
+        <button onclick="handleRedirect()">Claro!</button>
+      </div>
+    </main>
   </body>
 </html>
